@@ -24,9 +24,8 @@ const ProjectForm = () => {
             description,
             completionDate,
         };
-        // append new contact to existing contacts
+
         addProject(newProject);
-        // reset the form fields
         formRef.current.reset();
         setProjectName("");
         setDescription("");
