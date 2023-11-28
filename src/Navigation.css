@@ -1,0 +1,47 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+
+.profile {
+  width: 50px;
+  height: 50px;
+}
+
+
+.nav-item {
+  color: #333333;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  color: #0052cc;
+}
+
+.user-icon {
+  color: #0052cc;
+  font-size: 1.5rem;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+
