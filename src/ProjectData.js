@@ -21,19 +21,18 @@ const ProjectContextProvider = (props) => {
 
     const editProject = (updatedProject) => {
         setProjectData((prevProjectData) => {
-            // Find the index of the contact to be updated
             const index = prevProjectData.findIndex(
                 (c) => c.id === updatedProject.id
             );
-            // If the contact doesn't exist, return the previous state
+
             if (index === -1) {
                 return prevProjectData;
             }
-            // Create a copy of the previous contact data array
+
             const updatedProjects = [...prevProjectData];
-            // Update the contact at the given index with the new contact data
+
             updatedProjects[index] = updatedProject;
-            // Return the updated contact data array
+
             return updatedProjects;
         });
     };
